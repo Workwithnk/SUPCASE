@@ -1,0 +1,1550 @@
+* {
+  margin: 0px 0px;
+  padding: 0px;
+}
+
+/* shipping detils section */
+
+#ShippingDetails {
+  display: flex;
+  justify-content: center;
+  background: rgb(0, 0, 0);
+  color: white;
+  font-style: italic;
+  padding: 3px 0px;
+}
+
+/* navbar section */
+#navbar {
+  margin: 80px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+#fNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  float: left;
+  left: 0%;
+  top: 0%;
+}
+
+#fNav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#fNav ul li {
+  list-style: none;
+}
+#fNav ul li a {
+  font-size: 22px;
+  color: black;
+  text-decoration: none;
+}
+#fNav ul li input {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+#lNav {
+  position: absolute;
+  float: left;
+  left: 27%;
+  top: 21%;
+}
+#lNav li {
+  list-style: none;
+}
+#lNav li a {
+  font-size: 22px;
+  color: black;
+  text-decoration: none;
+}
+#sNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+#sNav img {
+  width: 235px;
+  height: 45px;
+}
+#tNav {
+  position: absolute;
+  float: right;
+  right: 11%;
+  top: 26%;
+}
+#tNav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#tNav ul li {
+  list-style: none;
+}
+#tNav ul li a {
+  font-size: 22px;
+  color: black;
+  text-decoration: none;
+  padding: 2px 24px;
+}
+#nNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  float: right;
+  right: 0%;
+  top: 21%;
+}
+#nNav li {
+  list-style: none;
+}
+.icons {
+  font-size: 30px;
+  color: black;
+  padding: 3px 9px;
+  cursor: pointer;
+  margin: 0px 5px;
+}
+
+/* First Section  */
+#FirstSection {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 20px 0px;
+  padding: 7px 0px;
+}
+#img {
+  position: absolute;
+  background-color: white;
+  margin: 0px 3px;
+  padding: 2px 14px;
+  top: -53px;
+}
+#img img {
+  width: 51px;
+  height: 90px;
+}
+#leftSection {
+  border-left: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 47px;
+  margin: 2px 68px;
+}
+.listItem {
+  margin: 2px 24px;
+  padding: 5px 15px;
+  font-size: 20px;
+  list-style: none;
+}
+#rightSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2px 68px;
+  padding: 0px 47px;
+  border-right: 1px solid black;
+  color: rgba(109, 106, 106, 0.685);
+}
+.downIcon {
+  font-size: 24px;
+  cursor: pointer;
+}
+#Vline {
+  position: absolute;
+  top: 73%;
+  background-color: black;
+  width: 1px;
+  height: 27px;
+}
+
+/* second section */
+#SecondSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#SecondSection img {
+  width: 100%;
+  height: 100%;
+}
+#MainInnerSection {
+  position: absolute;
+  float: left;
+  left: 11%;
+  top: 13%;
+}
+#FinnerSection {
+  display: flex;
+}
+#FinnerSection h2 {
+  color: red;
+  font-size: 44px;
+  margin: 7px 10px;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+#FinnerSection h1 {
+  color: red;
+  font-size: 71px;
+  font-weight: bolder;
+}
+#SinnerSection {
+  font-size: 12px;
+  letter-spacing: 3px;
+  margin-left: 11px;
+  color: white;
+  margin-bottom: 4px;
+}
+#TinnerSection {
+  color: white;
+}
+#TinnerSection h2 {
+  font-size: 20px;
+  background-color: rgba(5, 5, 5, 0.89);
+  width: 320px;
+  padding: 6px 14px;
+}
+
+#ninnerSection h2 {
+  color: white;
+  font-size: 20px;
+  background-color: rgba(5, 5, 5, 0.89);
+  width: 306px;
+  padding: 6px 11px;
+}
+#ninnerSection h2 span {
+  color: red;
+}
+.outerSection {
+  position: absolute;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(img-fonts/img/Untitled-2.png) no-repeat center/cover;
+  width: 45%;
+  height: 50px;
+  top: 96%;
+}
+#BottomImageSecond {
+  position: absolute;
+  display: flex;
+  bottom: -2%;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+#secondFloatElement {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -16%;
+  width: 75%;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 6px;
+  letter-spacing: 10px;
+}
+#secondFloatElement p {
+  color: white;
+  margin-bottom: 0px;
+}
+
+/* ThirdSection  */
+#ThirdSection {
+  margin-top: 83px;
+}
+#ElecDevice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ElecDevice li {
+  list-style: none;
+  padding: 2px 58px;
+  font-size: 25px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+.phone {
+  border-right: 1px solid black;
+}
+.watch {
+  border-left: 1px solid black;
+}
+
+#EleDeviceDetails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 11px 0px;
+}
+#ElecDeviceBack {
+  position: absolute;
+  float: right;
+  right: 7%;
+  top: 19%;
+}
+#ElecDeviceBack img {
+  width: 544px;
+}
+#EleDeviceImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 240px;
+}
+#EleDeviceDes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0px 17px;
+  margin-right: 64px;
+}
+#EleDeviceDes h3 {
+  font-size: 31px;
+}
+#EleDeviceDes p {
+  text-align: right;
+}
+.BrandSelection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+}
+.BrandSelection h4 {
+  font-size: 19px;
+  font-weight: bold;
+  padding: 4px 2px;
+  margin: 4px 8px;
+}
+.BrandSelection i {
+  font-size: 20px;
+  padding: 0px 10px;
+}
+.brand {
+  font-size: 19px;
+  margin: 13px 0px;
+}
+#EleDeviceChoice {
+  border-top: 1px solid black;
+  margin: 38px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#DeviceChoice {
+  margin: 39px 2px;
+  padding: 3px 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.SelectDevice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border-right: 1px solid rgba(160, 157, 157, 0.87);
+  margin: 2px 2px;
+  padding: 2px 25px;
+}
+.SelectDevice span {
+  margin: 10px 0px;
+}
+#SpecialDevice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin: 2px 2px;
+  padding: 2px 25px;
+}
+#SpecialDevice span {
+  margin: 10px 0px;
+}
+#EleDevicePri {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+#EleDevicePri p {
+  font-weight: bold;
+  margin: 0px 0px;
+  padding: 8px 106px;
+  font-size: 19px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+#EleDevicePri span {
+  padding: 10px 93px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+}
+
+/* ForthSection Section */
+#ForthSection {
+  position: relative;
+}
+#introVideo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: url(img-fonts/img/video_blackground.jpg) no-repeat center
+    center/cover;
+  position: relative;
+}
+#introImg1 {
+  margin-top: 69px;
+  width: 600px;
+}
+#introVideo p {
+  margin: 27px 0px;
+  letter-spacing: 3px;
+}
+#introImg {
+  width: 73px;
+  height: 73px;
+  margin-bottom: 160px;
+}
+#BetweenImg {
+  position: absolute;
+  top: 21%;
+}
+#ForthSectionMiddleImage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ForthSectionMiddleImage img{
+  width: 50%;
+  height: 50%;
+  margin-top: 0px;
+}
+#productFreatureForth{
+  position: absolute;
+    float: left;
+    left: 3%;
+    top: 46%;
+    width: 43%;
+}
+#backProductFeature {
+  position: absolute;
+  top: -9%;
+  left: -5%;
+}
+#backProductFeature img{
+  width: 65%;
+}
+#secondForthImage {
+  position: absolute;
+    float: right;
+    right: 4%;
+    top: 33%;
+}
+#secondForthImage img{
+  width: 86%;
+}
+.AllProductInTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.AllDes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 120px;
+  position: relative;
+}
+.AllProductOne {
+  width: 50%;
+  position: absolute;
+  float: left;
+  left: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0px;
+  margin-right: 2px;
+}
+.AllProductTwo {
+  width: 50%;
+  position: absolute;
+  float: right;
+  right: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid rgba(160, 157, 157, 0.87);
+  padding: 0px 0px;
+  margin-left: 2px;
+}
+.AllDesProduct {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid black;
+}
+.specialProduct {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.AllDesProduct p {
+  text-align: center;
+  padding: 0px 5px;
+}
+.specialProduct p {
+  padding: 0px 5px;
+  text-align: center;
+}
+#Features {
+  position: relative;
+  margin-top: 65px;
+  padding: 3px 0px;
+  width: 539px;
+  margin-bottom: 250px;
+  margin-left: 82px;
+}
+#Features img {
+  width: 400px;
+  height: 54px;
+}
+#productFeaDetail {
+  position: absolute;
+  top: -22%;
+  left: -8%;
+}
+.AllDesProduct h6 {
+  font-weight: bold;
+  text-align: center;
+  margin: 11px 0px;
+}
+.AllDesProduct p {
+  font-size: 12px;
+}
+.specialProduct h6 {
+  font-weight: bold;
+  text-align: center;
+  margin: 11px 0px;
+}
+.specialProduct p {
+  font-size: 12px;
+}
+
+/* fifth section */
+#fifthSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 50px 0px; */
+  margin-top: 130px;
+}
+#fFdiv {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: url(img-fonts/img/lookbook_2.png) no-repeat center center/cover;
+  width: 60%;
+  height: 398px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.fFdivBack {
+  position: absolute;
+  float: left;
+  left: 2%;
+  top: 33%;
+}
+#fFdiv h1 {
+  font-size: 33px;
+}
+.fFdivBack img {
+  width: 79%;
+  height: 50px;
+}
+#fFdiv p {
+  letter-spacing: 2px;
+}
+
+.fifthSectionImage3 {
+  width: 25%;
+  height: 398px;
+}
+.fifthSectionImage1 {
+  width: 25%;
+  height: 398px;
+}
+
+/* sixth section */
+#sixthSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 55px 0px;
+}
+.FsixthSection {
+  position: relative;
+  width: 100%;
+}
+#sixthCenterImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+#textFloatsixth {
+  background-color: rgba(5, 5, 5, 0.753);
+  position: absolute;
+  top: -16%;
+  padding: 7px 85px;
+  font-size: 21px;
+}
+#textFloatsixth p {
+  color: white;
+  margin-bottom: 0px;
+  font-size: 17px;
+  letter-spacing: 10px;
+}
+.sixthSideImageLeft {
+  position: absolute;
+  float: left;
+  left: 4%;
+  top: 12%;
+}
+.sixthSideImageRight {
+  position: absolute;
+  float: right;
+  right: 4%;
+  top: 12%;
+}
+#sixthFpara {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 60%;
+  margin: 20px 0px;
+}
+#sixthFpara p {
+  text-align: center;
+}
+#sixthSliderImage {
+  display: flex;
+}
+.sliderFimage img {
+  width: 100%;
+}
+.sliderSimage img {
+  width: 100%;
+}
+.sliderTimage img {
+  width: 100%;
+}
+#sixthSliderCon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+#sixthSliderCon h2 {
+  font-weight: bold;
+}
+#sixthSliderConBtn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 10px 0px;
+}
+#sixthArrowLeft {
+  position: absolute;
+  float: left;
+  left: 4%;
+}
+#sixthArrowLeft i {
+  font-size: 30px;
+  cursor: pointer;
+}
+#sixthArrowRight {
+  position: absolute;
+  float: right;
+  right: 4%;
+}
+#sixthArrowRight i {
+  font-size: 30px;
+  cursor: pointer;
+}
+#sixthConBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+}
+#sixthConBtn h5 {
+  font-weight: bold;
+  font-size: 22px;
+  padding: 8px 170px;
+  margin-bottom: 0px;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+#sixthSliderConpara {
+  width: 60%;
+}
+#sixthSliderConpara p {
+  text-align: center;
+}
+
+/* footer section */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: black;
+  position: relative;
+}
+#FirstSfooter {
+  display: flex;
+  padding: 32px 32px;
+  float: left;
+  top: 20%;
+  left: 20%;
+  right: 20%;
+}
+#FirstSfooter ul {
+  display: flex;
+  flex-direction: column;
+  margin: 2px 66px;
+  padding: 2px 3px;
+}
+#FirstSfooter ul i {
+  display: none;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+#FirstSfooter ul li {
+  list-style: none;
+  color: white;
+}
+#FirstSfooter ul li {
+  font-size: 15px;
+}
+#FirstSfooter ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.verticlaLine {
+  background-color: rgba(218, 218, 218, 0.685);
+  width: 2px;
+  height: 129px;
+}
+.specialCase {
+  display: none;
+}
+
+#secondSfooter {
+  display: flex;
+  justify-content: center;
+}
+.socialIcons {
+  font-size: 47px;
+  padding: 2px 4px;
+  margin: 2px 2px;
+  color: white;
+}
+#thirdSfooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 28px 0px;
+  color: white;
+}
+#hr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hr div {
+  background-color: white;
+  width: 95%;
+  height: 1px;
+  margin-bottom: 5px;
+}
+#forthSfooter {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 2px;
+  padding: 0px 2px;
+  color: white;
+}
+#forthSfooter i {
+  font-size: 21px;
+  margin: 0px 12px;
+}
+#fifthSfooter {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin: 5px 0px;
+}
+/* media query */
+
+@media only screen and (max-width: 1920px) {
+  #fNav {
+    left: 4%;
+  }
+  #tNav {
+    right: 14%;
+  }
+  #nNav {
+    right: 4%;
+  }
+  #FirstSfooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 1270px) {
+  /* navigationbar section */
+  #navbar {
+    display: flex;
+    width: 100%;
+    margin: 50px 0px;
+    position: relative;
+  }
+  #fNav {
+    position: absolute;
+    float: right;
+    left: 60%;
+
+    margin-top: -18px;
+  }
+  #fNav ul li input {
+    width: 154px;
+  }
+  #lNav {
+    display: none;
+  }
+  #sNav {
+    position: absolute;
+    float: left;
+    left: 5%;
+  }
+  #tNav {
+    display: none;
+  }
+  #nNav {
+    display: none;
+  }
+  .icons {
+    width: 51px;
+    font-size: 36px;
+  }
+  #toggle-menu {
+    width: 57px;
+    height: 37px;
+    position: absolute;
+    float: right;
+    right: 8%;
+    cursor: pointer;
+  }
+  .toggle {
+    width: 41px;
+    height: 6px;
+    background-color: black;
+    margin: 5px 0px;
+  }
+  /* footer section */
+  .verticlaLine {
+    display: flex;
+    width: 100%;
+    height: 1px;
+  }
+  .specialCase {
+    background-color: rgba(218, 218, 218, 0.685);
+    display: flex;
+    width: 100%;
+    height: 1px;
+  }
+
+  #FirstSfooter {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #FirstSfooter ul i {
+    display: flex;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  #FirstSfooter ul i {
+    position: absolute;
+    float: right;
+    right: 2%;
+  }
+  #FirstSfooter ul li a {
+    display: none;
+  }
+
+  #secondSfooter {
+    margin: 10px 0px;
+  }
+  .socialIcons {
+    font-size: 35px;
+    margin: 0px 12px;
+  }
+  #thirdSfooter b {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  #forthSfooter p {
+    letter-spacing: 5px;
+  }
+  #forthSfooter i {
+    font-size: 22px;
+  }
+  #FirstSfooter ul {
+    margin: 3px 13px;
+    padding: 0px 0px;
+  }
+
+  /* first section */
+  #FirstSection {
+    border: none;
+  }
+  #img {
+    display: none;
+  }
+  #Vline {
+    display: none;
+  }
+  #leftSection {
+    color: black;
+    margin: 12px 15px;
+    border: 1px solid black;
+    background-color: rgba(218, 218, 218, 0.685);
+  }
+  #rightSection {
+    color: black;
+    margin: 12px 15px;
+    background-color: rgba(218, 218, 218, 0.685);
+    border: 1px solid black;
+  }
+  .listItem {
+    font-size: 25px;
+    color: black;
+    padding: 0px 0px;
+  }
+  /* second section */
+  #SecondSection {
+    width: 100%;
+    height: 100%;
+  }
+  #secondFloatElement {
+    top: -12px;
+    letter-spacing: 4px;
+  }
+
+  /* third section */
+  #EleDeviceDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #EleDeviceImage {
+    padding: 0px;
+  }
+  #EleDeviceDes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+  }
+  #ElecDeviceBack {
+    display: none;
+  }
+  #EleDeviceDes p {
+    text-align: center;
+  }
+  #EleDeviceImage img {
+    width: 50%;
+    height: 50%;
+  }
+  #EleDeviceDes {
+    margin: 0px 0px;
+  }
+  #EleDeviceDetails {
+    background: url(img-fonts/img/phone_background.png) no-repeat center
+      center/cover;
+  }
+  #thirdSIcons i {
+    color: black;
+    margin-bottom: 15px;
+  }
+  #DeviceChoice {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #EleDeviceChoice {
+    border: none;
+  }
+  .SelectDevice {
+    border: none;
+  }
+  /* forth section */
+  #ForthSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #introVideo {
+    width: 100%;
+    height: 100%;
+  }
+  #secondForthImage{
+    display: none;
+  }
+  #productFreatureForth {
+    position: relative;
+    width: 80%;
+  }
+  #productFreatureForth h2{
+    text-align: center;
+  }
+  #productFreatureForth p{
+    text-align: center;
+  }
+  #backProductFeature {
+    display: none;
+  }
+  .AllDes {
+    margin-top: 8px;
+  }
+  .AllDes{
+    display: flex;
+    flex-direction: column;
+  }
+  .AllProductOne{
+    width: 82%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .AllProductTwo{
+    width: 82%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+  } 
+  .AllDesProduct{
+    border: none;
+  }
+  .specialProduct{
+    border: none;
+  }
+  /* fifth section */
+  #fifthSection{
+    margin-top: 0px;
+  }
+  #fFdiv p {
+    letter-spacing: 2px;
+    font-size: 12px;
+  }
+  #fFdiv h1 {
+    font-size: 24px;
+}
+
+}
+@media only screen and (max-width: 987px) {
+  #fNav {
+    left: 59%;
+  }
+  #toggle-menu {
+    right: 1%;
+  }
+  /* firstSection */
+  #leftSection {
+    margin: 0px 3px;
+    padding: 0px 5px;
+    font-size: 15px;
+  }
+  #rightSection {
+    font-size: 15px;
+    margin: 0px 3px;
+    padding: 0px 5px;
+  }
+  .downIcon {
+    font-size: 18px;
+  }
+  .listItem {
+    padding: 0px 0px;
+  }
+  /* second section */
+  #MainInnerSection {
+    position: absolute;
+    float: left;
+    left: 11%;
+    top: 8%;
+  }
+  #FinnerSection h1 {
+    font-size: 61px;
+    font-weight: bolder;
+  }
+
+  #FinnerSection h1 {
+    font-size: 61px;
+    font-weight: bolder;
+  }
+  #SinnerSection {
+    font-size: 10px;
+    letter-spacing: 3px;
+    margin-bottom: 4px;
+  }
+  #TinnerSection h2 {
+    font-size: 17px;
+    width: 258px;
+    padding: 3px 6px;
+  }
+  #ninnerSection h2 {
+    font-size: 17px;
+    width: 257px;
+    padding: 2px 8px;
+  }
+  /* second section */
+  #secondFloatElement {
+    font-size: 15px;
+    letter-spacing: 4px;
+    padding: 4px;
+  }
+
+  /* third section */
+  #EleDeviceImage {
+    padding: 0px;
+  }
+  #EleDeviceDes h3 {
+    font-size: 26px;
+  }
+  .BrandSelection h4 {
+    font-size: 15px;
+  }
+  /* forth section */
+  #introImg1 {
+    width: 500px;
+  }
+  #BetweenImg {
+    top: 23%;
+  }
+  #BetweenImg h1 {
+    font-size: 30px;
+  }
+  .AllDes {
+    display: flex;
+    flex-direction: column;
+  }
+  /* fifth section */
+  .fifthSectionImage1 {
+    width: 25%;
+    height: 291px;
+  }
+  .fifthSectionImage3 {
+    width: 25%;
+    height: 291px;
+  }
+  #fFdiv{
+    height: 291px;
+  }
+
+  /* sixth section */
+  #sixthCenterImage img{
+    display: none;
+  }
+  #sixthFpara{
+    margin-top: 60px;
+  }
+  #sixthSliderImage{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  #sixthArrowLeft {
+    display: none;
+  }
+  #sixthArrowRight{
+    display: none;
+  }
+}
+@media only screen and (max-width: 783px) {
+  #fNav ul li input {
+    width: 100px;
+  }
+  #sNav img {
+    width: 169px;
+    height: 43px;
+  }
+  #fNav {
+    left: 56%;
+  }
+  #FirstSection {
+    display: flex;
+  }
+  #rightSection {
+    margin: 10px 2px;
+  }
+  #leftSection {
+    margin: 10px 2px;
+  }
+  .downIcon {
+    padding: 0px 1px;
+  }
+  .listItem {
+    padding: 0px 0px;
+    font-size: 20px;
+  }
+  /* second section */
+  #secondFloatElement {
+    font-size: 13px;
+    letter-spacing: 4px;
+    padding: 2px;
+  }
+  /* third section */
+  #ElecDevice li {
+    padding: 2px 38px;
+  }
+  #EleDeviceDes h3 {
+    font-size: 20px;
+  }
+  #EleDeviceDes p {
+    font-size: 12px;
+  }
+  #EleDevicePri p {
+    padding: 3px 44px;
+  }
+  #EleDevicePri span {
+    padding: 10px 33px;
+  }
+  /* forth Section */
+  #introImg {
+    margin-bottom: 73px;
+  }
+  #BetweenImg {
+    top: 28%;
+  }
+  /* fifth section */
+  .fifthSectionImage1 {
+    width: 25%;
+    height: 250px;
+  }
+  .fifthSectionImage3 {
+    width: 25%;
+    height: 250px;
+  }
+  #fFdiv{
+    height: 250px;
+  }
+  #fFdiv h1 {
+    font-size: 20px;
+    margin: 14px;
+  }
+  /* sixth section */
+  #textFloatsixth p{
+    letter-spacing: 6px;
+  }
+  #textFloatsixth{
+    padding: 5px 16px;
+  }
+  .sixthSideImageLeft{
+    left: 0%;
+  }
+  .sixthSideImageRight{
+    right: 0%;
+  }
+  .sixthSideImageLeft img{
+    width: 85px;
+  }
+  .sixthSideImageRight img{
+    width: 85px;
+    
+  }
+  #sixthConBtn h5{
+    padding: 8px 130px;
+  }
+}
+@media only screen and (max-width: 610px) {
+  #fNav {
+    left: 49%;
+  }
+  #sNav img {
+    width: 139px;
+    height: 33px;
+  }
+  #fNav ul li input {
+    width: 83px;
+  }
+  .icons {
+    font-size: 24px;
+    width: 34px;
+  }
+  #toggle-menu {
+    width: 38px;
+    height: 20px;
+    right: 4%;
+    margin-top: -25px;
+  }
+  #ShippingDetails {
+    font-size: 14px;
+  }
+
+  /* first section */
+  #FirstSection {
+    display: flex;
+    flex-direction: column;
+  }
+  #leftSection {
+    width: 93%;
+  }
+  #rightSection {
+    width: 93%;
+  }
+  /* second section */
+  #FinnerSection h2 {
+    font-size: 31px;
+    margin: 2px 2px;
+  }
+  #FinnerSection h1 {
+    font-size: 45px;
+    margin-bottom: 0px;
+  }
+  #SinnerSection {
+    font-size: 7px;
+    letter-spacing: 2px;
+    margin-bottom: 2px;
+  }
+  #TinnerSection h2 {
+    font-size: 12px;
+    width: 186px;
+    margin-bottom: 5px;
+  }
+  #ninnerSection h2 {
+    font-size: 12px;
+    width: 187px;
+  }
+  /* second section */
+  #secondFloatElement {
+    font-size: 12px;
+    letter-spacing: 0px;
+    padding: 3px;
+  }
+  /* third section */
+  #ElecDevice li {
+    padding: 2px 11px;
+    font-size: 19px;
+  }
+  #ElecDevice li {
+    font-size: 13px;
+  }
+  /* forth section */
+  #introImg1 {
+    width: 367px;
+  }
+  #BetweenImg h1 {
+    font-size: 26px;
+  }
+  #introImg {
+    margin-bottom: 39px;
+  }
+  #introVideo p {
+    letter-spacing: 2px;
+  }
+  #BetweenImg {
+    top: 31%;
+  }
+  #productFreatureForth h2{
+    text-align: center;
+    font-size: 26px;
+  }
+  #productFreatureForth p{
+    font-size: 17px;
+    text-align: center;
+  }
+  /* fifth section */
+  .fifthSectionImage1 {
+    width: 25%;
+    height: 200px;
+  }
+  .fifthSectionImage3 {
+    width: 25%;
+    height: 200px;
+  }
+  #fFdiv{
+    height: 200px;
+  }
+  #fFdiv h1 {
+    font-size: 13px;
+    margin: 12px;
+  }
+  #fFdiv p {
+    letter-spacing: 2px;
+    font-size: 8px;
+  }
+  /* sixth section */
+  #sixthConBtn h5 {
+    padding: 5px 55px;
+  }
+}
+@media only screen and (max-width: 410px) {
+  #thirdSfooter {
+    font-size: 12px;
+  }
+  #fifthSfooter {
+    font-size: 11px;
+  }
+  /* second section */
+  #FinnerSection h2 {
+    font-size: 22px;
+  }
+  #FinnerSection h1 {
+    font-size: 32px;
+  }
+  #SinnerSection {
+    font-size: 5px;
+    letter-spacing: 1px;
+  }
+  #TinnerSection h2 {
+    font-size: 8px;
+    width: 128px;
+  }
+  #ninnerSection h2 {
+    font-size: 8px;
+    width: 130px;
+  }
+  #secondFloatElement {
+    font-size: 8px;
+    letter-spacing: 0px;
+    padding: 2px;
+  }
+  /* third section */
+  .BrandSelection h4 {
+    font-size: 11px;
+  }
+  #EleDeviceDes p {
+    font-size: 10px;
+  }
+  #EleDeviceDes h3 {
+    font-size: 14px;
+  }
+  #EleDevicePri p {
+    padding: 3px 20px;
+    font-size: 16px;
+  }
+  #EleDevicePri span {
+    padding: 10px 20px;
+  }
+  /* forth section */
+  #introImg1 {
+    width: 310px;
+    height: 39px;
+  }
+  #BetweenImg h1 {
+    font-size: 21px;
+  }
+  #introVideo p {
+    font-size: 16px;
+  }
+  
+  /* fifth section */
+  .fifthSectionImage1 {
+    width: 25%;
+    height: 150px;
+  }
+  .fifthSectionImage3 {
+    width: 25%;
+    height: 150px;
+  }
+  #fFdiv{
+    height: 150px;
+  }
+  #fFdiv h1 {
+    font-size: 10px;
+    margin: 12px;
+  }
+  #fFdiv p {
+    letter-spacing: 2px;
+    font-size: 6px;
+  }
+  /* sixth section */
+  #textFloatsixth p {
+    letter-spacing: 2px;
+  }
+  .sixthSideImageLeft img {
+    width: 60px;
+  }
+  .sixthSideImageRight img {
+    width: 60px;
+  }
+  #sixthSliderCon h2{
+    font-size: 22px;
+  }
+  #sixthSliderCon h6{
+    font-size: 14px;
+  }
+  #sixthConBtn h5 {
+    padding: 2px 47px;
+    font-size: 16px;
+  }
+  #sixthSliderConpara p {
+    font-size: 12px;
+  }
+}
